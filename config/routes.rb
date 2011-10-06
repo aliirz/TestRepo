@@ -1,5 +1,7 @@
 SamlpleApp::Application.routes.draw do
-  get "users/new"
+  resources :users
+
+  #get "users/new"
 
   get "pages/home"
 
